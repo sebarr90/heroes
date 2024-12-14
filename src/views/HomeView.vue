@@ -1,16 +1,6 @@
 <template>
   <v-app>
-    <!-- Barra de navegación -->
-    <v-app-bar app color="blue darken-4" dark>
-      <v-btn icon @click="$router.push('/')">
-        <v-icon>mdi-home</v-icon>
-      </v-btn>
-      <v-toolbar-title>Heroes of the Storm</v-toolbar-title>
-      <v-spacer></v-spacer>
-      <v-btn color="orange darken-3" @click="$router.push('/heroes')">Ver Héroes</v-btn>
-    </v-app-bar>
-
-    <!-- Contenido principal -->
+   
     <v-main>
       <div class="home-background">
         <v-container class="text-center d-flex flex-column justify-center align-center fill-height">
@@ -23,10 +13,7 @@
       </div>
     </v-main>
 
-    <!-- Pie de página -->
-    <v-footer app color="blue darken-4">
-      <span class="white--text">&copy; Bienvenido a vuetify 2021 —</span>
-    </v-footer>
+  
   </v-app>
 </template>
 
